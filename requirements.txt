@@ -1,0 +1,10 @@
+torch>=1.13.0 # Or the specific PyTorch version used in your Colab torchvision>=0.14.0 # Should correspond to the PyTorch version
+
+timm>=0.9.0 # PyTorch Image Models for EfficientNet, ConvNeXt, etc.
+
+pandas>=1.5.0
+scikit-learn>=1.2.0
+
+opencv-python-headless>=4.5.0 # Use headless version for server environments like Colab
+
+tqdm>=4.60.0
