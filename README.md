@@ -144,7 +144,7 @@ Combating overfitting in the powerful `ConvNeXt` models was the primary focus du
         * **Cells 1-9:** Perform setup, data preparation, copying images locally (takes a few minutes), and creating DataLoaders. Verify paths and outputs.
         * **Cells 10-12:** These cells were used for *training* the model. You can **skip** running these if you only want to generate predictions using the provided `best_model_v7.pth`.
         * **Cell 13:** Copies the `test` images locally (quick).
-        * **Cell 14:** Loads the `best_model_v7.pth` file from your Google Drive (ensure the path matches). Requires the `.pth` file to be present. Download the `.pth` file from the provided drive link from "Downloadable_files".
+        * **Cell 14:** Loads the `best_model_v7.pth` file from your Google Drive (ensure the path matches). Requires the `.pth` file to be present. Download the `.pth` file from the provided drive link from "Downloadable_files.txt".
         * **Cell 15:** Performs inference on the test set (takes ~5-10 minutes with `BATCH_SIZE=8`) and saves the final `Catalyst_prediction_v7.json` to your Google Drive root.
 4.  **Dependencies:** `torch`, `torchvision`, `timm`, `pandas`, `scikit-learn`, `opencv-python`. Cell 5 handles installation via `pip`.
 
