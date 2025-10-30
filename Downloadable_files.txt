@@ -1,0 +1,3 @@
+In this drive link below; both the files are present that are "best_model_v7.pth" and "Catalyst_prediction_v7.json" anyone one can download those files and use those files for working as well as checking.
+
+https://drive.google.com/drive/folders/1Ij1KKcVEkTbuXiOermS-OLxyNto_uy8E?usp=sharing
